@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form label {
+            float: left;
+            width: 25%;
+        }
+
+        form label input {
+            float: right;
+            width: 75%;
+        }
+        div input[type=submit]{
+            border-color: lightcoral;
+        }
+          div input[type=reset]{
+            background-color: brown;
+          }  
+    
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="">ID:</label>
+        <input type="text"><br> <br>
+        <label for="">Full Name:</label>
+        <input type="text"> <br><br>
+        <label for=""> Email:</label>
+        <input type="email" placeholder="email"><br> <br>
+        <label for="">Password:</label>
+        <input type="number"> <br><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">Others <br> <br>
+        <label for="">Subject:</label>
+        <select name="" id="">
+            <option value="">JEE</option>
+            <option value="">.NET</option>
+            <option value="">GAVE</option>
+            <option value="">#C</option>
+            <option value="">DBD</option>
+            <option value="">C++</option>
+        </select> <br><br>
+        <label for="">Education:</label>
+        <input type="checkbox">SSC
+        <input type="checkbox">HSC
+        <input type="checkbox">Honours <br> <br>
+        <label for="">Command:</label>
+        <textarea name="" id="" cols="30" rows="3"></textarea> <br> <br>
+        <div style="float: right; width: 70%;">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
